@@ -1,0 +1,100 @@
+/* 1. RÈGLE (Box Sizing) */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif; /* Diapo 29 */
+}
+
+/* 2. FOND DU SITE */
+body {
+    background-color: #6d0076; 
+    padding: 50px; 
+}
+
+.CouleurFond {
+    
+    text-align: center;
+}
+
+/* 4. STRUCTURE DE LA CARTE */
+.carte {
+    display: inline-block;
+    width: 280px;
+    margin: 15px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* 5. EN-TÊTE DES CARTES */
+.carte-tête {
+
+    color: white;                   
+    font-weight: bold;              
+    font-size: 1.2rem;              
+    padding: 20px;                  
+    text-transform: uppercase;      
+    text-align: center;
+}    
+
+/* COULEURS DES EN-TÊTES */
+.carte-tête.basic {
+    background-color: #0099e6;
+}
+
+.carte-tête.pro {
+    background-color: #f05053;
+}
+
+.carte-tête.premium {
+    background-color: #ffc845;
+}
+
+/* 6. CORPS DE LA CARTE */
+
+.carte-corps {
+    background-color: #434753;
+    color: white;              
+    text-align: center;        
+}
+
+/* 7. PRIX ET TEXTES */
+.prix {
+    padding: 20px;
+}
+
+.dollars {
+    font-size: 1.2rem; 
+}
+
+.montant {
+    font-size: 2.8rem; 
+    font-weight: bold; 
+}
+
+.decimals {
+    font-size: 1rem;   
+}
+
+.periode {
+    font-size: 0.8rem; 
+    color: #aaaaaa;
+}
+
+/* 8. OPTIONS / FONCTIONNALITÉS */
+.information {
+    padding: 10px;                 
+    font-size: 0.9rem;              
+    border-top-style: solid;        
+    border-top-width: 1px;          
+    border-top-color: #525763;      
+}
+
+/* 9. BOUTON DU BAS (Ajouter) */
+.BoutonAjouter {
+    padding: 20px;                 
+    font-weight: bold;              
+    border-top-style: solid;        
+    border-top-width: 1px;
+    border-top-color: #525763;
+}
