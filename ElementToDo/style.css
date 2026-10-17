@@ -1,0 +1,5 @@
+input[type="checkbox"]:checked + span {text-decoration: line-through;
+}
+.bg-rouge {background-color: #e8b4b8; width: fit-content; padding: 10px;}
+.bg-jaune {background-color: #f2ebd9; width: fit-content; padding: 10px;}
+.bg-bleu  {background-color: #9cbccb; width: fit-content; padding: 10px;}
